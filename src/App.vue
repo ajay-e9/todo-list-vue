@@ -1,8 +1,9 @@
 <script setup>
+import HomeView from "./views/HomeView.vue";
 </script>
 
 <template>
-  <h1 className="text-3xl font-bold underline">Hello world!</h1>
+  <HomeView />
 </template>
 
 <style scoped>
