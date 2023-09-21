@@ -26,13 +26,13 @@ const store = useSidebarStore();
           </button>
         </div>
         <!-- Home button -->
-        <a
-          href="#responsive-header"
+        <router-link
+          to="home"
           class="block mt-4 hover:text-white px-4 py-2 mb-2 rounded hover:bg-blue-700 mr-2"
         >
           <i class="fi fi-rr-home"></i>
           <span class="ml-2 max-sm:hidden">Home</span>
-        </a>
+        </router-link>
 
         <!-- Notifications button -->
         <a
@@ -73,13 +73,13 @@ const store = useSidebarStore();
           </button>
         </div>
 
-        <a
-          href="#responsive-header"
+        <router-link
+          to="#"
           class="block mt-4 hover:text-white px-4 py-2 mb-2 rounded hover:bg-blue-700 mr-2"
         >
           <i class="fi fi-rr-circle-user to-black" />
           <span class="ml-2 max-sm:hidden">Account</span>
-        </a>
+        </router-link>
       </div>
     </div>
   </nav>
