@@ -32,6 +32,13 @@ const todos = [
   <fieldset class="flex items-center mt-4 justify-center justify-items-center">
     <legend class="sr-only">To-do</legend>
     <div class="space-y-5">
+      <button
+        type="button"
+        class="rounded-full bg-indigo-600 p-1 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+      >
+        <i class="fi fi-rr-add h-5 w-5"></i>
+        Add Task
+      </button>
       <div
         v-for="todo in todos"
         :key="todo.text"
